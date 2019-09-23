@@ -1,4 +1,4 @@
-first create map like code
+First create map like code.
 sudo mkdir code
 after we clome our file from github.
 git clone https://github.com/obaidullahsafi/ateljee_samba.git
