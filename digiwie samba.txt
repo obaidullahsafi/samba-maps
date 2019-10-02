@@ -1,0 +1,34 @@
+samba for Digiwie
+first create make dirctory to clone your code from github
+By following commond
+mkdir digiwie
+cd digiwie
+git colne the link ----
+give premission to cloned file 
+by following commond chmod u+rxw file name 
+to run it use following commond
+./the name of file 
+but first we have to go to srv 
+by following commond 
+cd /srv
+and we will create share folder 
+mkdir shares
+in share we will create others folders
+like dtp, varia, projecten, media, public,training,locaties
+after we we will go to dtp
+by following commond
+cd dtp
+and there we will link all others folders by following commond
+ln -s /srv/shares/varia
+ln -s /srv/shares/projecten
+ln -s /srv/shares/media
+ln -s /srv/shares/locaties
+ln -s /srv/shares/training
+ln -s /srv/shares/intern
+ln -s /srv/shares/public
+if you now use ls commond you will see all the maps there in dtp
+after if you open your shares folders in windows 
+only patrick will be able to acces dtp map and all submaps
+and he can write ,read , excute the maps 
+whatever he does there will be aviabel for other users.
+
