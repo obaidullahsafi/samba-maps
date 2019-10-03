@@ -240,7 +240,7 @@ cat > /etc/samba/smb.conf << EOF
         allow insecure wide links =yes
         passdb backend = tdbsam
         netbios name = files
-
+        hosts allow = 10.8.0.0/24 
         printing = cups
         printcap name = cups
         load printers = yes
